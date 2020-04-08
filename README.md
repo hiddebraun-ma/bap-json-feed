@@ -1,4 +1,4 @@
-# JSON ophalen van de server (backend)
+# BAP: Hands-On JSON
 
 Voorbeeldcode aanlsuitend op de lessen van Simon over JSON.  
 
