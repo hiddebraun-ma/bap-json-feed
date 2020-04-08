@@ -8,6 +8,7 @@ Zo kun je die gegevens weer in een handig formaat omzetten en gebruiken.
 
 ## Opdracht: Maak de code werkend zodat de feed wordt ingeladen uit de database (via feed.php)
 
+**Importeer eerst het `fotofeed.sql` bestand**
 In de code zitten op een aantal plekken comments met een **TODO**
 Dat zijn plekken waar jouw developer skills nodig zijn. Mkaa de code werkend. 
 
