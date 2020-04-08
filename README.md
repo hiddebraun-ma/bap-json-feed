@@ -8,10 +8,13 @@ Zo kun je die gegevens weer in een handig formaat omzetten en gebruiken.
 
 ## Opdracht: Maak de code werkend zodat de feed wordt ingeladen uit de database (via feed.php)
 
+In de code zitten op een aantal plekken comments met een **TODO**
+Dat zijn plekken waar jouw developer skills nodig zijn. Mkaa de code werkend. 
+
 ### In de backend
 1. Maak de query werkend zodat de juiste gegevens van fotos opgehaald worden
 2. Bonus: Gebruik een JOIN SQL statement om ook de gebruikers informatie meteen te koppelen en op te halen
-3. Test de feed door feed.php opte rvagen in je browser, bekijk de structuur goed
+3. Test de feed door feed.php op te vragen in je browser, bekijk de structuur goed
 4. Zorg dat wachtwoord NIET wordt opgehaald (tip: SELECT alleen de kolommen die je wilt)
 5. In de database staat wel de filename, maar hoe maak je hier een goed werkende url van?
 6. Zorg dat in de feed ook de volledige url naar de afbeelding komt (zo kan de afbeelding altijd worden ingeladen)
@@ -23,6 +26,6 @@ Zo kun je die gegevens weer in een handig formaat omzetten en gebruiken.
 
 ## Tips
 - Bekijk goed wat de feed allemaal voor informatie bevat door `feed.php` op te vragen als je deze werkend hebt
-- Gebruik de web inspector om te kijken welke XMLHTTPRequests er verstuurd worden (tabje XHR)
+- Gebruik de web inspector om te kijken welke XMLHTTPRequests er verstuurd worden (tabje XHR in web inspector)
 - Kijk of de plaatjes goed worden opgevraagd
-- Om javascript fouten op te sporen
+- Om javascript fouten op te sporen (Console tabje in web inspector)

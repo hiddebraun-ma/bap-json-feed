@@ -1,8 +1,8 @@
 // Ophalen output div om alle foto items aan toe te voegen
 const feedOutput = document.getElementById('feed');
 
-// Haal de json button op met getElementById
-const jsonButton =
+// TODO: Haal de json button op met getElementById
+// const jsonButton =
 
 function createFeedHTML(feed) {
 
@@ -19,7 +19,7 @@ function createFeedHTML(feed) {
         fotoTitel.innerHTML = fotoInfo.titel;
         feedItem.append(fotoTitel);
 
-        // Voeg hier andere informatie van de foto (gebruikersnaam, datum...?)
+        // TODO: Voeg hier andere informatie van de foto (gebruikersnaam, datum...?)
 
         let fotoImage = document.createElement('img');
         fotoImage.src = fotoInfo.filename;  // Hier moet natuurlijk de juiste url komen uit de feed
@@ -33,12 +33,12 @@ function createFeedHTML(feed) {
 
 function requestListener() {
     let feed = JSON.parse(this.responseText);
-    // Roep hier de functie aan die de feed verwerkt
+    // TODO: Roep hier de functie aan die de feed verwerkt
 }
 
 function loadFeed() {
     let request = new XMLHttpRequest();
-    // Zet de juiste url voor de feed hier
+    // TODO: Zet de juiste url voor de feed hier
     let jsonUrl = '';
     request.addEventListener("load", requestListener);
     request.open("GET", jsonUrl, true);
@@ -46,8 +46,8 @@ function loadFeed() {
 }
 
 
-//Zorg dat als je op de jsonButton klikt dat de functie load loadFeed wordt aangeroepen
-jsonButton.addEventListener('', );
+// TODO: Zorg dat als je op de jsonButton klikt dat de functie load loadFeed wordt aangeroepen
+// jsonButton.addEventListener('', );
 
 
 

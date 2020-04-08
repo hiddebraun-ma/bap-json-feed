@@ -57,17 +57,16 @@ function getWebsiteBaseUrl() {
 function getFeedFotos( PDO $connection ) {
 
 	try {
-		// Maak hier de query die alle foto's ophaalt en gebruik een LEFT JOIN om ook de gebruikers informatie meteen op te halen
+		// TODO: Maak hier de query die alle foto's ophaalt en gebruik een LEFT JOIN om ook de gebruikers informatie meteen op te halen
 		$sql       = '';
 		$statement = $connection->query( $sql );
 
 		$feed = [];
 		foreach ( $statement as $foto ) {
-			// Voeg hier alle rijen toe aan de $feed array
+			// TODO: Voeg hier alle rijen toe aan de $feed array
 
-			// Probeer de function getBaseUrl() te gebruiken om ook de volledige url naar het plaatje te berekenen
-
-			// Zet dat in de info van elk item
+			// TODO: Probeer de function getBaseUrl() te gebruiken om ook de volledige url naar het plaatje te berekenen
+			// TODO Voeg dat toe aan de gegevens van elke foto
 		}
 
 		// De feed array teruggeven
