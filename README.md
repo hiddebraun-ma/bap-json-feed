@@ -10,7 +10,7 @@ Zo kun je die gegevens weer in een handig formaat omzetten en gebruiken.
 
 **Importeer eerst het `fotofeed.sql` bestand**
 In de code zitten op een aantal plekken comments met een **TODO**
-Dat zijn plekken waar jouw developer skills nodig zijn. Mkaa de code werkend. 
+Dat zijn plekken waar jouw developer skills nodig zijn. Maak de code werkend. 
 
 ### In de backend
 1. Maak de query werkend zodat de juiste gegevens van fotos opgehaald worden
