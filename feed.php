@@ -12,5 +12,5 @@ $connection = dbConnect();
 header( 'Content-type: application/json;charset=utf-8' );
 
 // Hier de json echo-en
-echo $json;
+
 
